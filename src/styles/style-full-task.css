@@ -1,0 +1,46 @@
+.tack-conteiner {
+  background-color: white;
+  height: 90%;
+  width: 95vw;
+  padding-top: 20px;
+  padding-left: 20px;
+  margin: 25px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+p {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  width: 50%;
+  order: 2;
+}
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  margin-bottom: 10px;
+  order: 1;
+}
+.close-cross {
+  color: black;
+  font-size: 50px;
+  text-decoration: none;
+  margin-right: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+.btn {
+  padding: 10px;
+  background-color: #0079bf;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  width: 150px;
+  border: none;
+  border-radius: 5px;
+  order: 3;
+}
+.editable-textarea {
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+}
